@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+@import "Styles/nav-container.scss";
+
+@import "Styles/icon-nav.scss";
+
+@import "Styles/presentacion.scss";
+
+@import "Styles/macbook-pro.scss";
+
+@import "Styles/mac-mini.scss";
+
+@import "Styles/compare-table.scss";
+
+@import "Styles/section1.scss";
+
+@import "Styles/section1-text.scss";
+
+@import "Styles/section2.scss";
+
+@import "Styles/countain-small.scss";
+
+@import "Styles/countain-big.scss";
+
+@import "Styles/footer.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    text-decoration: none;
+    list-style: none;
+}
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    text-decoration: none;
+}
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    text-decoration: none; 
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    overflow-y: scroll;
+}
+

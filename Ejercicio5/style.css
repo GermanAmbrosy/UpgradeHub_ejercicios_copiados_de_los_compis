@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: rgb(203, 203, 203);
+}
+.header{
+  position: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 10px;
+  box-shadow: 1rem rgb(92, 88, 88) solid;
+}
+.header__logo-section{
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  color: green;
+  font-weight: bolder;
+}
+.header__logo{
+  text-decoration: none;
+  font-family: 'Lobster';
+  font-size: 22px;
+  color: green;
+}
+.header__navbar{
+  text-decoration: none;
+  font-size: 12px;
+}
+.header__navbar a{
+  color: rgb(92, 88, 88);
+  transition: all .3s ease;
+}
+.header__navbar a:hover{
+  color: black;
+  padding-left: 6px;
+}
+.header__navbar-phone{
+  font-size: 15px;
+}
+.menu{
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu__bar{
+  background-color: rgb(40, 165, 40);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-around;
+  margin-left: 25px;
+}
+.menu__bar span{
+  background-color: transparent;
+}
+.menu__bar a{
+  background-color: transparent;
+}
+.menu__bar a i{
+  background-color: transparent;
+  color: black;
+  size: 70px;
+}
+.menu__options{
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5%;
+}
+.menu__options a{
+  background-color: transparent;
+  color: rgb(86, 86, 86);
+  font-size: 12px;
+  margin: 5px;
+  width: 50%;
+  transition: .2s linear;
+}
+.menu__options a:hover{
+  padding-right: 2rem;
+}
+.inicio{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.inicio__seccion a{
+  color: black;
+}
+.inicio__filtros{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.inicio__filtros a{
+  border: 3px solid rgb(40, 165, 40);
+  height: 35px;
+  margin: 4px;
+  background-color: rgb(40, 165, 40);
+  color: rgb(245, 241, 241);
+}
+.inicio__filtros a i{
+  background-color: rgb(40, 165, 40);
+}
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-around;
+}
+.gallery__item{
+  background-color: white;
+  /*Para conseguir el borde 'transparente'*/
+  border: 5px solid rgb(203, 203, 203);
+  background-clip: padding-box;
+  height: 100%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 45px;
+  margin-bottom: 20px;
+}
+.gallery__item h2{
+  background-color: transparent;
+  text-align: center;
+  color: rgb(86, 86, 86);
+}
+.gallery__item h6{
+  background-color: transparent;
+  text-align: center;
+}
+.gallery__item div{
+  background-color: white;
+}
+.gallery__item-down p{
+  margin-top: 5px;
+  background-color: white;
+  text-align: left;
+  margin-left: 2px;
+}
+.gallery__item-down h3{
+  margin-left: 2px;
+  background-color: white;
+  color: rgb(40, 165, 40);
+  margin-bottom: 20px;
+}
+.gallery__item-down a{
+  background-color: white;
+  border: 2px solid rgb(40, 165, 40);
+  color: rgb(40, 165, 40);
+  margin-left: 5px;
+}
+.conditions{
+  position: relative;
+  margin: 50px;
+  border: 1px solid white;
+  display: flex;
+  align-items: flex-start;
+  background-color: white;
+
+}
+.conditions__block{
+  margin-left: 5px;
+  background-color: white;
+
+}
+.conditions__block h3{
+  color: rgb(86, 86, 86);
+  background-color: white;
+}
+.conditions__block p{
+  background-color: white;
+  font-size: 13px;
+}
+.icons-nav__nav{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  
+}
+.icons-nav__nav a{
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  align-items: self-start;
+  color: rgb(92, 88, 88);
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+
+
+.footer{
+  position: relative;
+}
+.box{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline-start: 35px;
+  
+}
+.box h3{
+  color: rgb(117, 223, 10);
+}
+.box a{
+  color: rgb(92, 88, 88);
+  transition: .2s linear;
+}
+.footer .box-container .box a:hover{
+  padding-right: 2rem;
+}

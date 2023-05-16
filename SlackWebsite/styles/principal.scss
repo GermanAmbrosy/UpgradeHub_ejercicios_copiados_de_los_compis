@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300&display=swap');
+
+@import "Media/media-queries.scss";
+
+@import "Cabecera/front-page.scss";
+
+@import "Cuerpo/countainer-empresas.scss";
+
+@import "Cuerpo/countainers.scss";
+
+@import "Cuerpo/countain-porcents.scss";
+
+@import "Cuerpo/container-video.scss";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;   
+  text-decoration: none;
+  list-style: none;
+}
+body{
+	margin: 0;
+	max-width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	font-family: 'Kanit', Arial, Helvetica, sans-serif;
+}
+*, ::after, ::before{
+	box-sizing: inherit;
+}
+:root {
+	--swiper-theme-color: #007aff;
+	--swiper-navigation-size: 44px;
+}
+:root {
+	--sidebar-color: #400d40;
+	--sidebar-highlight-color: #1264a3;
+	--attachment-color: #000;
+	--more-count: '+1';
+	--article-theme-primary: #4a154b;
+	--article-theme-secondary: #fff;
+}
+html{
+	box-sizing: border-box;
+	font-size: 16px;
+	color: black;
+	-webkit-text-size-adjust: 100%;
+}

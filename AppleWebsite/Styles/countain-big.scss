@@ -1,0 +1,89 @@
+.countain-big{
+    position: relative;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
+.countain-big__title{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.countain-big__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.countain-big__text h4{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.countain-big__navbar ul{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 8%;
+    margin-block: 10%;
+}
+.countain-big__navbar ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-inline: 10%;
+    
+}
+.countain-big__navbar ul li img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+.countain-big__paragraph{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5% 10%;
+}
+.countain-big__paragraph p{
+    width: 600px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.countain-big__paragraph a{
+    color: rgb(21, 133, 208);
+    font-weight: bold;
+}
+.countain-big__img{
+    align-items: center;
+    background-color: #f2f2f2;
+    margin-bottom: 5%;
+}
+.countain-big__img img{
+    background-color: #f2f2f2;
+    width: 600px;
+    height: auto;
+    align-items: center;
+    object-fit: contain;
+}
+.countain-big__extra{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5% 15%;
+}
+.countain-big__extra img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}

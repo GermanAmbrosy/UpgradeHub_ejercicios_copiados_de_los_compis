@@ -1,0 +1,35 @@
+.countain-small{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.countain-small_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.countain-small__img img{
+    width: 400px;
+    height: 300px;
+}
+.countain-small__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.countain-small__text h1{
+    width: 300px;
+    font-size: 40px;
+    margin-bottom: 10%;
+}
+.countain-small__text h3{
+    margin-bottom: 10%;
+}
+.countain-small__text a{
+    color: rgb(0, 116, 232);
+}

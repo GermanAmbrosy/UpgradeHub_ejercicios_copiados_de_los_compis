@@ -1,0 +1,68 @@
+@charset "UTF-8";
+.nav-container {
+  background-color: rgba(245, 245, 247, 0.7);
+  height: 44px;
+  z-index: 300;
+  position: absolute;
+  /*Al posicionar en fixed pierde la anchura, por eso se definen left, top y right*/
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.nav-container nav {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 8px;
+  height: 100%;
+}
+
+.nav-container__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-container__navbar li a {
+  color: rgba(0, 0, 0, 0.838);
+  font-size: 14px;
+  /*Para conseguir el color plateado*/
+  opacity: 0.8;
+  transition: opacity 400ms;
+}
+
+/*Al añadir el svg en css responde mas rápido, si lo añado en html me lo oculta todo*/
+.link-logo {
+  background: url(items/apple-logo-svgrepo-com.svg);
+  display: block;
+  background-position: center;
+  height: 44px;
+  background-size: 18px;
+  width: 20px;
+  background-repeat: no-repeat;
+}
+
+.link-search {
+  background: url(items/bx-search.svg);
+  display: block;
+  background-position: center;
+  height: 44px;
+  background-size: 18px;
+  width: 20px;
+  background-repeat: no-repeat;
+}
+
+.link-bag {
+  background: url(items/bx-shopping-bag.svg);
+  display: block;
+  background-position: center;
+  height: 44px;
+  background-size: 17px;
+  width: 20px;
+  background-repeat: no-repeat;
+}
+
+.nav-container__navbar li a:hover {
+  color: black;
+}/*# sourceMappingURL=nav-container.css.map */

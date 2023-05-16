@@ -1,0 +1,54 @@
+.mac-mini{
+    background: url(items/mac-mini-background.webp);
+    background-size: contain;
+    background-position: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 600px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.mac-mini__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mac-mini__text h5{
+    color: rgb(214, 93, 45);
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+.mac-mini__text h1{
+    color: white;
+}
+.mac-mini__text h2{
+    color: white;
+    margin-bottom: 1%;
+}
+.mac-mini__text h4{
+    color: white;
+    margin-bottom: 1%;
+    margin-left: 18%;
+}
+.mac-mini__links{
+    margin-top: 1%;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -30%;
+}
+.mac-mini__links a{
+    color: rgb(7, 144, 241);
+}
+.mac-mini__links button{
+    margin-top: 1%;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(7, 131, 220);
+    color: white;
+    font-size: 17px;
+}

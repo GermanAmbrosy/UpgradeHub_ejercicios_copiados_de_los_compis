@@ -1,0 +1,309 @@
+/*Para que no desborde la página*/
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6px;
+  overflow-x: hidden;
+  min-width: auto;
+}
+
+/*Recuadro del menu*/
+
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background:transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 2px 1.5px white;
+}
+.header a{
+  transition: all .3s ease;
+}
+.header a:hover{
+  color: black;
+  padding-left: 6px;
+}
+section{
+  padding: 2px 1.5px;
+}
+.logo-bmw{
+  height: 35px;
+  width: 30px;
+}
+.navbar{
+  font-size: small;
+  padding: 0 1.5px;
+  color: #666;
+  font-style: none;
+}
+.enl-nav{
+  font-style: none;
+  text-decoration: none;
+  color: #434343;
+}
+.icon-style{
+  display: inline;
+  font-style: none;
+  text-decoration: none;
+  color: #434343;
+  /*Faltaría colocarlos en línea horizontal*/
+}
+
+/*Colocar de fondo una imagen externa*/
+
+.home{
+  display: flex;
+  align-items: flex-end;
+  min-height: 100vh;
+  background: url(items/fondo-cabecera.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit:cover;
+}
+
+/*Contenido dentro de la imagen de fondo*/
+
+.home-content{
+  max-width: 50rem;
+  margin-bottom: 50px;
+  margin-left: 10px;
+}
+.home-content h1{
+  font-size: 30px;
+  color: white;
+}
+.home-content h2{
+  color: white;
+  margin-bottom: 8px;
+}
+.home-content a{
+  position: relative;
+  margin-left: 30px;
+  color: white;
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 0;
+  background: blue;
+  padding: .9rem 3.5rem;
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+
+/*Navegador entre clases de vehículos*/
+
+.main-nav{
+  margin-top: 10%;
+  margin-left: 20px;
+  width: 80%;
+}
+
+.main-items{
+   width: 80%;
+   display: flex;
+   justify-content: space-between;
+   gap: 30px;
+}
+.main-nav__links{
+   text-decoration: none;
+   transition: all .3s ease;
+}
+.main-nav__links:hover{
+  color: black;
+  padding-left: 6px;
+}
+
+/*Noticias en línea*/
+
+.section{
+   margin-top: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: 10%;
+   width: 80%;
+}
+.section-items{
+   width: 25%;
+   margin: 5px;
+   
+}
+.section-img{
+   height:250px;
+   width: 100%;
+   object-fit: contain;
+   display: grid;
+   grid-template-columns: repeat(4 2fr);
+   /*Falta una coma en grid, pero al añadirla lo deforma, con flex no se alinean*/
+}
+.section-text{
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.section-cost{
+   font-size: small;
+   color:gray;
+}
+.aside-news{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-left: 10%;
+   width: 80%;
+   margin-top: 40px;
+}
+.aside-news__items{
+   width: 150px;
+   height: 200px;
+   border: 1px solid rgb(0, 0, 0);
+   padding: 10px;
+   display: grid;
+   
+}
+.aside-news__img{
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+/*Dos últimos recuadros*/
+
+.down-news{
+  display: flex;
+  align-content: space-between;
+  margin-top: 20px
+}
+.down-news__items{
+   width: 50%;
+   border: 1px solid rgb(185, 185, 185);
+   padding:10px;
+   margin: 5px;
+}
+.down-news__img{
+   width: 100%;
+   height: 300px;
+}
+
+/*Configurador, contacto...*/
+
+
+.final-section{ 
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-left: 10%;
+   width: 80%;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+.final-section a{
+  font-style: none;
+  color: #434343;
+}
+.final-section__item{
+   background-color: rgb(215, 207, 207);
+   width: 120px;
+   height: 160px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgba(81, 79, 79, 0.533);
+   display: flex; 
+   justify-content: center;
+   align-items:center;
+   position: relative;
+}
+.final-section__icon{
+   width: 25px;
+   height: 25px;
+   position: absolute;
+   top:20%;
+   left: 45%;
+}
+
+
+
+/*Footer y sus elementos*/
+
+li{
+  list-style: none;
+}
+.container-footer{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer{
+  background-color: gainsboro;
+  padding: 80px 0;
+}
+.footer-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-links{
+  width: 25%;
+  padding: 0 15px;
+
+}
+.footer-links h4{
+  font-size: 15px;
+  color: #434343;
+  margin-bottom: 25px;
+  font-weight: 500;
+  border-bottom: 1.5px solid black;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+.footer-links ul li{
+  margin-left: -33px;
+}
+.footer-links ul li a{
+  font-size: 10px;
+  text-decoration: none;
+  color: #434343;
+  display: block;
+  margin-bottom: 15px;
+  transition: all .3s ease;
+}
+.footer-links ul li a:hover{
+  color: rgb(175, 175, 175);
+  padding-left: 6px;
+}
+.social-link{
+  margin-left: -7px;
+}
+.social-link svg{
+  z-index: 10;
+}
+
+/*Copyright*/
+
+.footer-final{
+  background-color: white;
+  position: absolute;
+  height: 20px;
+  width: auto;
+}
+.footer-all{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.final-enlaces a{
+  font-size: 8px;
+}

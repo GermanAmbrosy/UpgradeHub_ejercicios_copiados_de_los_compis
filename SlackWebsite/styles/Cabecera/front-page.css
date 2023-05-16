@@ -1,0 +1,123 @@
+.front-page {
+  background-color: #541554;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 100%;
+  text-align: center;
+}
+
+.front-page__logo {
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.front-page__logo img {
+  width: 40px;
+  height: 40px;
+  margin: 0 5%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.burguer {
+  width: 40px;
+  height: 40px;
+  margin: 0 5%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.logo-slack {
+  color: white;
+  margin: 0 5%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.front-page__navbar {
+  width: 100%;
+  margin: 0 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 2%;
+}
+
+.navbar__logo h3 {
+  margin-left: 5%;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar img {
+  width: 30px;
+  height: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.front-page__video-countain {
+  grid-template-columns: 53% 45%;
+  grid-column-gap: 2%;
+  justify-items: start;
+}
+
+.front-page__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.front-page__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5% 25%;
+}
+
+.front-page__buttons button {
+  border-radius: 10px;
+  background-color: white;
+  width: 350px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.front-page__image video {
+  max-width: 100%;
+  max-height: 400px;
+  display: inline-block;
+  vertical-align: baseline;
+  -o-object-fit: contain;
+     object-fit: contain;
+  overflow: clip;
+}
+
+.google img {
+  width: 40px;
+  height: 40px;
+}/*# sourceMappingURL=front-page.css.map */
